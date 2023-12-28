@@ -1,0 +1,8 @@
+<div *ngIf="flashCardInfo" class="tile" (click)="flipCard()">
+	<div id="front" class="" *ngIf="display === 'front'">
+		<h1>{{ flashCardInfo.front.text }}</h1>
+	</div>
+	<div id="back" *ngIf="display === 'back'">
+		<h1>{{ flashCardInfo.back.text }}</h1>
+	</div>
+</div>

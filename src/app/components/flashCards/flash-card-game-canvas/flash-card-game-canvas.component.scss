@@ -1,0 +1,13 @@
+.gameContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+button.wrong {
+	background-color: rgb(255, 81, 81);
+}
+button.right {
+	background-color: rgb(90, 209, 100);
+}
