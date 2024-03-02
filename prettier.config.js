@@ -1,4 +1,4 @@
-{
+const config = {
 	arrowParens: 'always',
 	bracketSpacing: true,
 	embeddedLanguageFormatting: 'auto',
@@ -27,3 +27,4 @@
 	useTabs: true,
 	// vueIndentScriptAndStyle: false, //don't care since I don't use vue
 }
+module.exports = config
